@@ -1,31 +1,38 @@
-# DocuShield AI+
+# 🚀 DocuShield AI+
 
-## 🚀 AI-Based Document Fraud Detection (Invoice-Focused)
-
-### 📌 Description
-
-DocuShield AI+ is a web-based application that detects fraudulent invoices using intelligent validation logic. It allows users to upload documents and analyze them to determine whether they are genuine or fake.
+## 📌 AI-Based Document Fraud Detection (Invoice-Focused)
 
 ---
 
-### ✨ Features
+## 📖 Description
 
-* Upload invoice documents
-* Intelligent fraud detection
-* Instant result (Real/Fake)
+DocuShield AI+ is a web-based application designed to detect fraudulent documents, with a primary focus on invoices. The system allows users to upload document images, extracts text using OCR (Tesseract), and applies intelligent validation logic to analyze patterns, structure, and data consistency.
+
+Based on this analysis, the system classifies the document as **Valid, Suspicious, or Fraud** and provides a risk score along with reasons for the decision. The goal is to simplify fraud detection and reduce manual verification efforts.
+
+---
+
+## ✨ Features
+
+* Upload invoice/document images
+* OCR-based text extraction (Tesseract)
+* Intelligent fraud detection logic
+* Risk score generation
+* Classification: Valid / Suspicious / Fraud
 * User-friendly interface
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-* Frontend: React.js
-* Backend: Node.js, Express.js
-* Database: MongoDB
+* **Frontend:** HTML, CSS (Templates)
+* **Backend:** Flask (Python)
+* **OCR Engine:** Tesseract
+* **Libraries:** pytesseract, Pillow
 
 ---
 
-### ⚙️ How to Run
+## ⚙️ How to Run
 
 1. Clone the repository:
 
@@ -33,20 +40,57 @@ DocuShield AI+ is a web-based application that detects fraudulent invoices using
 git clone https://github.com/Manozna26/DocuShield-AI.git
 ```
 
-2. Install dependencies:
+2. Navigate to the project folder:
 
 ```
-npm install
+cd DocuShield-AI
 ```
 
-3. Run the project:
+3. Install dependencies:
 
 ```
-npm start
+pip install -r requirements.txt
+```
+
+4. Run the application:
+
+```
+python app.py
+```
+
+5. Open in browser:
+
+```
+http://127.0.0.1:5000/
 ```
 
 ---
 
-### 👩‍💻 Author
+## ⚠️ Important Note
 
-Manozna
+This project requires **Tesseract OCR** to be installed on your system.
+
+Download from:
+https://github.com/tesseract-ocr/tesseract
+
+After installation, update the path in `app.py` if needed.
+
+---
+
+## 📸 Demo
+
+(Add your screenshot here)
+
+Example:
+
+```
+![App Screenshot](./your-image.png)
+```
+
+---
+
+## 👩‍💻 Author
+
+**Manozna**
+B.Tech CSE (AI)
+Parul University
