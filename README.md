@@ -30,7 +30,7 @@ DocuShield AI+ is a web-based application that detects fraudulent invoices using
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/DocuShield-AI.git
+git clone https://github.com/Manozna26/DocuShield-AI-.git
 ```
 
 2. Install dependencies:
